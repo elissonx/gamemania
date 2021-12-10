@@ -1,80 +1,92 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <title>GameMania</title>
-    <link rel="stylesheet" href="_css\estilo.css"/> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco - GameMania</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <link rel="stylesheet" href="_css/fale-conosco.css">
+    <link rel="stylesheet" href="_css/style.css">
+    <link rel="stylesheet" href="_css/responsivo.css">
+    <script src="_js/jquery-3.6.0.js"></script>
 </head>
-
-<div id="interface">
-
-<header id="cabecalho">
-    <hgroup>
-        <h1>GameMania</h1>
-        <h2>A revolução do mundo gamer chegou.</h2>
-    </hgroup>
-
-    <img id="icone" src="_imagens\dota2-icone.png" alt="">
-
-    <nav id="menu">
-        <h1>Menu Principal</h1>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="eletronicos.html">Eletrônicos</a></li>
-            <li><a href="jogos.html">Jogos</a></li>
-            <li><a href="noticias.html">Notícias</a></li>
-            <li><a href="fale-conosco.html">Fale conosco</a></li>
-        </ul>
-    </nav>
-</header>
+<body>
+    <!-- MENU -->
+    <header>
+        <div class="container-grid posicionamento-header">
+            <a href="#"> <img class="logo" src="img/logo1.svg" alt="Logo do site Gamer-mania"> </a>
+             <nav id="menu" class="menu"> 
+                <li><a href="index.html">Home</a></li>
+                <li><a href="eletronicos.html">Eletrônicos</a></li>
+                <li><a href="jogos.html">Jogos</a></li>
+                <li><a href="noticias.html">Notícias</a></li>
+                <li><a href="fale-conosco.html">Fale conosco</a></li>
+            </nav>
+            <a href="#" id="barras"><img class="barras" src="img/bars.svg" alt="Menu de barras"></a>
+        </div>
+    </header>
+    <!-- BANNER-BG -->
+    <div class="banner">
+        <div class="container-grid itens-banner">
+            <div class="texto-banner">
+                <h1>Venha comprar seu console na melhor loja!</h1>
+            </div>
+        </div>
+    </div> 
 
 <section id="corpo">
-<hgroup>
-    <h1>Melhores Compras</h1> 
-</hgroup>
+ <main class="banner-paginas">
+            <div class= "banner-jogos d-flex flex-column justify-content-evenly">
+                <h1>Jogos</h1>
+            </div>
+        </main>
 
-<h2>Supernovidade</h2>
-<p> <span style="font-weight: bolder">Playstation 5 é um super console!</span> Desfrute do carregamento extremamente rápido com o SSD de altíssima velocidade, uma imersão mais profunda com suporte a feedback tátil, gatilhos adaptáveis e áudio 3D, além de uma geração inédita de jogos incríveis para <a href="http://https://www.playstation.com/pt-br/ps5/" target="_blank">Console Playstation 5 - PS5</a>. Domine o poder de uma CPU e GPU personalizadas e o SSD com E/S integradas que redefinem as regras do que o console <em>PlayStation 5</em> pode fazer.</p>
+        <section class="container filtro">
+            <nav class= "d-flex filtro-nav">
+                <label>Ordenar por: </label>
+                <select>
+                    <option>Relevância</option>
+                    <option>Mais vendidos</option>
+                    <option>Preço: Menor para maior</option>
+                    <option>Preço: Maior para o menor</option>
+                    <option>Melhor avaliação</option>
+                </select>
+            </nav>
+        </section>
 
-<figure class="foto-legenda">
-    <img src="_imagens\ps5a.jpg">
-    <figcaption>
-        <h3>PS5</h3>
-        <p>Uma nova maneira de jogar por apenas R$4000.</p>
-    </figcaption>
-</figure>
+        <section class="container d-flex ">
+            <div class="container loja_lateral_esquerda col-lg-2 col-md-3">
+                <strong class="titulo_categoria">Categorias:</strong> 
+                <div class="categorias d-flex flex-column"> <strong class="categoria">Estado: </strong>
+                    <a href="#" class="item_categoria"> Novos </a>
+                    <a href="#" class="item_categoria"> Seminovos </a>
+                </div>                
+                <div class="preco"> <strong class="categoria">Preço: </strong><br>
+                    Min : <input type="number" value="0"> <br> Máx: <input type="number" value="5000">
+                    <input type="submit" value="OK">
+                </div>
+                <div class="marcas d-flex flex-column"> <strong class="categoria"> Gênero </strong>
+                    <a href="#" class="item_categoria"> Luta </a>
+                    <a href="#" class="item_categoria"> Ação </a>
+                    <a href="#" class="item_categoria"> Corrida </a>
+                    <a href="#" class="item_categoria"> Musical </a>
+                    <a href="#" class="item_categoria"> Infantil </a>
+                    <a href="#" class="item_categoria"> Simulação </a>
 
-<h2>Data de lançamento</h2>
-<p>O console já foi lançado nos EUA, Austrália, Nova Zelândia, Japão, Singapura e Coreia do Sul, em 12 de novembro. O restante do mundo, assim como o Brasil, recebeu o aparelho apenas neste dia 19/11/2020.</p>
+                </div>
+            </div>
 
-<h2>Especificações Técnicas</h2>
-<h3>Tabela Técnica do PS5 Set/2021</h3>
-
-<p>Processador (CPU): AMD Zen 2 customizado com 8 núcleos e 16 threads a até 3,5 GHz.
-Placa de vídeo (GPU): 36 UCs a até 2.23 GHz (10.28 TFLOPS)
-Arquitetura do chip gráfico: RDNA 2 customizada.
-Interface de memória: 16 GB GDDR6 (256-bit)
-Largura de memória: 448 GB/s.B</p>
-
-<h2>Formas de pagamento</h2>
-<p>Aqui na GameMania você escolhe o jeito de pagar. A vista com 10% de desconto (R$3600) - boleto ou pix - ou no cartão por R$4400. Aceitamos todas as bandeiras de cartão. Aproveite esta supernovidade!</p>
-
+            <div class="container loja_lateral_direita col-lg-10 col-md-9">
+                <div id="espaco-produtos"  class="d-flex flex-wrap justify-content-evenly .align-content-center pagina-produtos">
+                    <!-- Renderização dos produtos a partir do arquivo de javaScript jogos.js -->
+                </div>
+            </div>
+        </section>
+        
+        <div class="gradiente">
+        </div>
 </section>
-
-<aside id="lateral">
-<h1>Notícias</h1>
-<h2>Vídeo mais recente</h2>
-
-[AQUI ENTRA UM VÍDEO]
-
-<h2>Novidades nos games</h2>
-<p>The International, também conhecido como TI, é o torneio mundial de Dota 2 organizado pela Valve Corporation, a desenvolvedora do jogo, onde dezoito equipes competem para conquistar o troféu Égide dos Campeões e premiações milionárias. O torneio começou como a estreia do Dota 2 em agosto de 2011 na Gamescom, com um grande prêmio de um milhão de dólares. A competição aconteceu anualmente até 2019, já que em sua décima edição, que aconteceria em Estocolmo, foi adiada por conta da pandemia de COVID-19.</p>
-
-<figure>
-    <img src="_imagens\dota2-icone.jpg">
-</figure>
-
-</aside>
-
 
 <footer id="rodape">
 <p>Copyright 2021 &copy; - by Elisson Andrade <br/>
