@@ -1,0 +1,642 @@
+@media screen and (max-width:1920px) {
+    
+    /* .menu {
+        width: 480px;
+    }
+    
+    .menu a{
+        font-size: 16px;
+    }
+
+    .logo {
+        width: 200px;
+        height: 150px;
+    }
+    */
+}
+
+@media screen and (max-width:820px) {
+    /* PRODUTOS */
+
+    .secao-produtos {
+        height: 950px;
+    }
+
+    .produtos-flex {
+        padding-left: 0px;
+        margin-left: 110px;
+        margin-right: 110px;
+    } 
+
+    .produto-item{
+        width: 300px;
+        height: 250px;
+    }
+
+    /* CLIENTES */
+
+    .secao-clientes {
+        height: 1100px;
+    }
+
+    .clientes1 {
+        padding-right: 0px;
+    }
+
+    .clientes2 {
+        padding-top: 50px;
+    }
+
+    /* PRODUTOS A VENDA */
+
+    .produtos-cont {
+        height: 1200px;
+        height: 2100px;
+    }
+
+    #espaco-produtos {
+        margin-right: 65px;
+        margin-left: 65px;
+    }
+    
+    /* SOBRE */
+
+    .sobre-grid {
+        height: 650px;
+        height: 960px;
+    }
+    
+    /* LOGIN */
+    
+    /* RODAPÉ */
+    .footer {
+        height: 160px;
+        height: 282px;
+    }
+
+    .atendimento {
+        padding-left: 40px;
+    }
+
+    .email {
+        padding-right: 40px;
+    }
+
+    .redes {
+        padding-top: 0px;
+        padding-left: 30px;
+    }
+
+}
+
+
+@media screen and (max-width:810px) {
+    /* PRODUTOS */
+
+    .secao-produtos {
+        height: 950px;
+    }
+
+    .produtos-flex {
+        padding-left: 0px;
+        margin-left: 105px;
+        margin-right: 105px;
+    } 
+
+    .produto-item{
+        width: 300px;
+        height: 250px;
+    }
+
+    /* CLIENTES */
+
+
+    .secao-clientes {
+        height: 1100px;
+    }
+
+    .clientes1 {
+        padding-right: 0px;
+    }
+
+    .clientes2 {
+        padding-top: 50px;
+    }
+
+    /* PRODUTOS A VENDA */
+
+    .produtos-cont {
+        height: 1200px;
+        height: 2100px;
+    }
+
+    #espaco-produtos {
+        margin-right: 60px;
+        margin-left: 60px;
+    }
+    
+    /* SOBRE */
+
+    .sobre-grid {
+        height: 650px;
+        height: 960px;
+    }
+    
+    /* LOGIN */
+    
+    /* RODAPÉ */
+
+    .footer {
+        height: 160px;
+        height: 282px;
+    }
+    .atendimento {
+        padding-left: 40px;
+    }
+    .email {
+        padding-right: 40px;
+    }
+
+    .redes {
+        padding-top: 0px;
+        padding-left: 30px;
+    }
+
+}
+@media screen and (max-width:768px) {
+
+    /* MENU */
+
+    header {
+        height: 216px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    #menu {
+        flex-direction: column;
+        width: 200px;
+        background-color: black;
+        position: absolute;
+        top: 0;
+        right: 65px;
+    }
+
+    .menu a {
+        text-align: center;
+        padding: 15px;
+        font-size: 16px;
+    }
+
+
+    .posicionamento-header {
+        position: relative;
+    }
+    
+    .menu-ativo {
+        display: flex;
+    }
+
+    .barras {
+        display: inline-block;
+    }
+
+    /* PRODUTOS */
+    
+    .secao-produtos {
+        height: 810px;
+    }
+
+    .secao-produtos h1 {
+        font-size: 30px;
+    }
+
+    .produtos-flex {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-right: 134px;
+        padding-left: 134px;
+    }
+
+    .produto-item {
+        width: 250px;
+        height: 200px;
+    }
+
+    /* NOTICIAS */
+
+    .bloco-noticias {
+        margin-left: 105px;
+        margin-right: 105px;
+    }
+
+    /* CLIENTES */
+    
+    .secao-clientes {
+        height: 420px;
+    }
+
+    .clientes h1 {
+        font-size: 30px;
+    }
+
+    .clientes-flex {
+        padding-right: 149px;
+        padding-left: 149px;
+    }
+    
+    .clientes1 {
+        padding-right: 30px;
+        width: 250px;
+        height: 200px;  
+        padding-left: 0px;      
+        
+    }
+    
+    .clientes2 {
+        width: 220px;
+        height: 200px;
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+
+    /* RODAPE */
+    
+
+    .footer {
+        height: 240px;
+    }
+
+    .atendimento {
+        padding-left: 50px;
+        font-size: 16px;
+    }
+        
+    .email {
+        padding-right: 50px;
+        padding-left: 40px;
+        padding-top: 40px;
+        font-size: 16px;
+    }
+        
+    .redes {
+        margin-top: -60px;
+        padding-left: 40px;
+        font-size: 16px;
+    }
+
+    /* PRODUTOS A VENDA */
+    
+    #espaco-produtos {
+        margin-left: 50px;
+        margin-right: 0px;
+    }
+
+    .produtos-cont {
+        height: 2100px;
+    }
+
+    .sub-titulo {
+        font-size: 30px;
+    }
+
+    .notebooks {
+        margin-left: 60px;
+        margin-right: 0px;
+    }
+
+    .notebooks img{
+        width: 250px;
+        height: 200px;
+    }
+    
+    /* SOBRE */
+    
+    .sobre-grid {
+        height: 1000px;
+    }
+    
+    .sobre h3 {
+        font-size: 30px;
+    }
+    
+    .Politica-qualidade h3 {
+        font-size: 30px;
+    }
+    
+}
+
+@media screen and (max-width:412px) {
+    /* CLIENTES */
+
+    .secao-clientes {
+        display: none;
+    }
+
+    /* PRODUTOS */
+
+    .secao-produtos {
+        height: 1350px;
+    }
+
+    .produtos-flex {
+        padding-left: 81px;
+        padding-right: 81px;
+    }
+
+    /* PRODUTOS A VENDA */
+
+    .produtos-cont {
+        height: 2100px;
+        height: 4070PX;
+    }
+
+    #espaco-produtos {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+     
+    .produtos-item a {
+        margin-left: 55px;
+        margin-right: 55px;
+    }
+    /* SOBRE */
+
+    .sobre-grid {
+        height: 1000px;
+        height: 2470px;
+    }
+
+    /* LOGIN */
+
+    .login-cadastro {
+        height: 530px;
+    }
+
+    .dois {
+        padding-left: 0px;
+    }
+
+    /* RODAPE  */
+    .email {
+        padding-top: 0px;
+        padding-left: 50px;
+    }
+
+    .redes {
+        padding-top: 50px;
+        padding-left: 90px;
+    }
+
+    .redes > h3:nth-child(1) {
+        padding-left: 75px;
+    }
+
+    .footer {
+        height: 340px;
+    }
+
+    .produtos-item a {
+        margin-left: 60px;
+        margin-right: 70px;
+    }
+}
+
+@media screen and (max-width:384px) {
+    /* PRODUTOS */
+    .produtos-flex {
+        padding-right: 67px;
+        padding-left: 67px;
+    }
+
+    /* PRODUTOS A VENDA */
+
+    #espaco-produtos {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    /* SOBRE */
+
+    .sobre-grid {
+        height: 2610px;
+    }
+    
+    /* LOGIN */
+    
+    /* RODAPÉ */
+    .atendimento {
+        padding-left: 35px;
+    }
+
+    .email {
+        padding-left: 35px;
+    }
+
+    .redes {
+        padding-left: 75px;
+    }
+
+}
+
+
+
+@media screen and (max-width:320px) {
+    /* MENU */
+
+    header {
+        height: 180px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    #menu {
+        flex-direction: column;
+        width: 115px;
+        background-color: black;
+        position: absolute;
+        top: 0;
+        right: 40px;
+    }
+
+    .menu a {
+        text-align: center;
+        padding: 15px;
+        font-size: 10px;
+    }
+
+
+    .posicionamento-header {
+        position: relative;
+    }
+    
+    .menu-ativo {
+        display: flex;
+    }
+
+    .barras {
+        display: inline-block;
+    }
+
+    /* PRODUTOS */
+    
+    .secao-produtos {
+        height: 1350px;
+    }
+
+    .secao-produtos h1 {
+        font-size: 20px;
+    }
+
+    .produtos-flex {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    /* NOTICIAS */
+
+    .secao-noticias {
+        background-color: white;  
+    }
+
+    .bloco-noticias {
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+    .texto-card a {
+        background-color: #098D97;
+    }
+
+    /* CLIENTES */
+
+    .secao-clientes {
+        display: none;
+    }
+
+    /* RODAPE */
+
+    .footer{
+        height: 340px;
+    }
+
+    .footer h3 {
+        align-items: center;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .footer p {
+        align-items: center;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .atendimento{
+        padding-right: 35px;
+        padding-left: 55px;
+    }
+
+    .redes {
+        padding-left: 50px;
+        margin-top: -50px;
+    }
+
+    .redes h3 {
+        padding-left: 85px;
+    }
+
+    .email {
+        padding-top: 0px;
+        margin-top: 0px;
+        padding-left: 55px;
+        padding-bottom: 0px;
+    }
+    
+    .redes > h3:nth-child(1) {
+        padding-left: 85px;
+    }
+
+    /* PRODUTOS A VENDA */
+
+    .produtos-cont {
+        height: 3440px;
+    }
+
+    #espaco-produtos {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .sub-titulo {
+        font-size: 20px;
+    }
+
+    .notebooks img{
+        width: 200px;
+        height: 150px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .notebooks p {
+        text-align: none;
+    }
+
+    .notebooks {
+        margin-left: 0px;
+    }
+
+    /* SOBRE */
+
+    .sobre-grid {
+        height: 1130px
+    }
+
+    .sobre h3 {
+        font-size: 30px;
+    }
+
+    .sobre p {
+        font-size: 10px;
+    }
+    
+    .Politica-qualidade h3 {
+        font-size: 20px;
+    }
+
+    .Politica-qualidade p {
+        font-size: 10px;
+    }
+  
+    /* LOGIN/CADASTRO */
+
+    .login-cadastro {
+        height: 530px;
+    }
+    
+    .login-cadastro h2 {
+       font-size: 20px;
+    }
+    
+    .dois {
+        padding-left: 0px;
+    }
+
+}
+
+
+/* PRODUTOS */
+
+/* PRODUTOS A VENDA */
+
+/* SOBRE */
+
+/* LOGIN */
+
+/* RODAPÉ */
+
