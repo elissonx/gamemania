@@ -1,0 +1,67 @@
+/* Fale-Conosco */
+
+.contato_background {
+  background-image: url(../imagens/contato_banner.png);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.contato_text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 300px;
+}
+
+.contato_text p {
+  color: #ffffff;
+  font: 500 1.75rem "Montserrat", sans-serif;
+  text-align: center;
+  align-items: flex-end;
+}
+
+.contato_text h1 {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.contato_box {
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: center;
+}
+
+.contato_info {
+  display: flex;
+  flex-direction: column;
+  background-color: #d0d1d1;
+  width: 80%;
+}
+
+.contato_info h2 {
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+.contato_info p {
+  color: #000000;
+  font: 500 1.75rem "Montserrat", sans-serif;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.contato_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
