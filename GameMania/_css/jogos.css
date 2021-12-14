@@ -1,0 +1,130 @@
+/*PS5 jogos*/
+.img-fluid{
+    max-width: 100%;
+    padding: 0px 0;
+    margin-top: -2px;
+}
+.ps5{
+    margin-top: 5rem;
+    margin-left: 30px;
+    font-weight: bolder;
+}
+.img-ps5{
+    max-width: 100%;
+    display: block;
+    
+}
+
+.jogos-5{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 0 auto;
+
+}
+.jogos-5 .sessão-ps5{
+    flex: 1 1 200px;
+    margin: 20px;
+
+}
+.jogos-5 p {
+    color: black;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif ;
+    padding: 6px;
+    margin-left: 3px;
+}
+/*PS4 jogos*/
+.ps4{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-weight: bolder;
+}
+.img-ps4{
+    max-width: 100%;
+    display: block;
+}
+.jogos-4{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.jogos-4 .sessão-ps4{
+    flex: 1 1 200px;
+    margin: 20px;
+
+}
+.jogos-4 p {
+    color: black;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif ;
+    padding: 6px;
+    margin-left: 3px;
+}
+/*XBOX jogos*/
+.xbox-one{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-weight: bolder;
+}
+.img-xbox{
+    max-width: 100%;
+    display: block;
+}
+.jogos-one{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.jogos-one .sessão-xbox{
+    flex: 1 1 200px;
+    margin: 20px;
+
+}
+.jogos-one p {
+    color: black;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif ;
+    padding: 6px;
+    margin-left: 3px;
+}
+
+
+/*PC jogos*/
+.fundo{
+    background-color: #C4C4C4;
+}
+.pc{
+    margin-top: 5rem;
+    margin-left: 30px;
+    font-weight: bolder;
+    
+}
+.img-pc{
+    max-width: 100%;
+    display: block;
+}
+.pc-games1{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.sessão-pc{
+    flex: 1 1 200px;
+    margin: 20px;
+
+}
+.sessão-pc p {
+    color: black;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif ;
+    padding: 6px;
+    margin-left: 3px;
+}
